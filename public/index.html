@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Milionerzy</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Milionerzy</h1>
+  <h2>Pytanie <span id="good-answers">1/12</span></h2>
+
+  <div id="game-board">
+    <div id="tip"></div>
+
+    <button class="tip-btn" id="callToAFriend"><i class="fas fa-phone"></i></button>
+    <button class="tip-btn" id="halfOnHalf">50:50</button>
+    <button class="tip-btn" id="questionToTheCrowd"><i class="fas fa-users"></i></button>
+
+    <div id="question"></div>
+    <div class="answers">
+      <button class="answer-btn" id="answer1" data-answer="0"></button>
+      <button class="answer-btn" id="answer2" data-answer="1"></button>
+      <button class="answer-btn" id="answer3" data-answer="2"></button>
+      <button class="answer-btn" id="answer4" data-answer="3"></button>
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
